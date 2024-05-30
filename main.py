@@ -3,6 +3,8 @@ from pydantic import BaseModel
 import numpy as np
 from fastapi import FastAPI
 import json
+import nltk
+nltk.download('punkt')
 import pickle
 from keras.models import load_model
 from nltk.tokenize import word_tokenize
