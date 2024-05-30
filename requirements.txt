@@ -1,0 +1,8 @@
+fastapi==0.110.1
+uvicorn==0.29.0
+pandas == 2.2.2
+pydantic == 2.6.1
+numpy==1.23.5
+keras==3.2.1
+nltk==3.8.1
+tensorflow==2.16.1
